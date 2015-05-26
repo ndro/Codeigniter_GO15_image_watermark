@@ -1,0 +1,1 @@
+<img src="<?php echo base_url(); ?>assets/results/<?php echo $file_name; ?>" alt="Your foto">
