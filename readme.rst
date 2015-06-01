@@ -1,5 +1,5 @@
 ###################
-Image Watermark withCodeigniter
+Image Watermark menggunakan Codeigniter
 ###################
 
 Image watermark adalah penambahan suatu image pada image yang lain. Penggunaan
@@ -12,5 +12,4 @@ Cek di Internet
 *******************
 
 Berikut adalah pranala untuk ke website-nya:
-<http://go15picturself.16mb.com/>
-
+http://go15picturself.16mb.com/
