@@ -38,6 +38,8 @@ class Home extends MY_Controller {
         {
             $error = array('error' => $this->upload->display_errors());
             $this->load->view('home', $error);
+			
+			$this->close();
         }
         else
         {
