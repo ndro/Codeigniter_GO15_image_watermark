@@ -12,5 +12,4 @@ Cek di Internet
 *******************
 
 Berikut adalah pranala untuk ke website-nya:
-abc<http://go15picturself.16mb.com/>
-
+http://go15picturself.16mb.com/
