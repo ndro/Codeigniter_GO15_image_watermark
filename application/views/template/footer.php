@@ -3,12 +3,16 @@
 	
 	<div class="footer">
 		<div class="container">
-			<hr />
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="bold">Copyright @ 2015 Ganesha Open</span>
-				<br><br>
+			<div class="row text-center">
+				<br />
+				<div class="col-lg-3">
 				</div>
+				<div class="col-lg-6">
+					<span class="bold">Copyright @ 2015 Ganesha Open | Unit Panahan PASOPATI ITB</span>
+				</div>
+				<div class="col-lg-3">
+				</div>
+				<br /><br />
 			</div>
 		</div>
 	</div> <!-- END of footer -->

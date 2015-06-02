@@ -7,6 +7,7 @@ class Home extends MY_Controller {
         parent::__construct();
 		$this->open();
 		$this->load->library('image_lib');
+		$this->load->helper('download');
     }
 	
 	public function index() {
@@ -19,6 +20,15 @@ class Home extends MY_Controller {
         $this->load->view('result', $data);
 		
 		$this->close();
+	}
+	
+	public function download($file_name) {
+		$path = base_url().'assets/results/'.$file_name;
+		
+		$data = file_get_contents($path); // Read the file's contents
+		$name = $file_name;
+
+		force_download($name, $data);
 	}
 	
 	public function proses_upload()

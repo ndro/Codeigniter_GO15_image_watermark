@@ -5,7 +5,10 @@
 	<div class="col-lg-12 text-center v-center">
 
 		<h1>Ganesha Open 2015</h1>
-		<p class="lead">Ayo ubah foto anda di semua medsos...!!</p>
+		<p class="lead">
+			Ayo ubah foto anda di semua medsos...!!
+		</p>
+		<span>*note: gambarnya yang berbentuk kotak jika ingin hasil maksimal (ex: 800x800, 500x500)</span>
 
 		<br />
 
