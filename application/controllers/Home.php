@@ -71,7 +71,7 @@ class Home extends MY_Controller {
         $config['new_image'] = 'assets/results/'.$upload_data['raw_name'].'-done.jpg';
 		
         $config['wm_type'] = 'overlay';
-        $config['wm_overlay_path'] = 'assets/images/fotobut-resize.png';
+        $config['wm_overlay_path'] = 'assets/images/kiri-resized.png';
         $config['wm_opacity'] = '50';
         $config['wm_vrt_alignment'] = 'middle'; 
         $config['wm_hor_alignment'] = 'center';
@@ -92,8 +92,8 @@ class Home extends MY_Controller {
 	
 	private function resize_image($upload_data)
     {
-		$width = 807;
-		$height = 807;
+		$width = 800;
+		$height = 800;
 		
         $this->image_lib->clear();
         $config['image_library'] = 'gd2';

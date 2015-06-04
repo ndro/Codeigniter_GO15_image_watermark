@@ -8,7 +8,7 @@
 				<div class="col-lg-3">
 				</div>
 				<div class="col-lg-6">
-					<span class="bold">Copyright @ 2015 Ganesha Open | Unit Panahan PASOPATI ITB</span>
+					<span class="bold">Copyright @ 2015 Ganesha Open | Unit Panahan Pasopati ITB</span>
 				</div>
 				<div class="col-lg-3">
 				</div>

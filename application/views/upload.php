@@ -2,27 +2,12 @@
 	<div id="error">
 		<?php echo validation_errors(); ?>
 	</div>
-	<div class="col-lg-12 text-center v-center">		
-		<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/logo-head.png" alt="Logo GO">
-		<h1>Picture Your Self</h1>
+	<div class="col-lg-12 text-center v-center">
+
+		<h1>Ganesha Open 2015</h1>
 		<p class="lead">
 			Ayo ubah foto anda di semua medsos...!!
 		</p>
-		<div class="col-lg-4">
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-kiri.jpg" alt="Foto kiri" width="400">
-			<br />
-		</div>
-		<div class="col-lg-4">
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-keep.jpg" alt="Foto Keep Calm" width="400">
-			<br />
-		</div>
-		<div class="col-lg-4">
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-kanan.jpg" alt="Foto Kanan" width="400">
-			<br />
-		</div>
-		
-		<br />
-		
 		<span>*note: gambarnya yang berbentuk kotak jika ingin hasil maksimal (ex: 800x800, 500x500)</span>
 
 		<br />
@@ -43,14 +28,11 @@
 				</div>
 				<br />
 				<input class="btn btn-block btn-primary" type="submit" value="Upload" />
-				<br />
-				<br />
 			</div>
 			<div class="col-lg-5">
 			</div>
 			
 		</form>
-		
 
 	</div>
 
