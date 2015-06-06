@@ -1,16 +1,35 @@
+@font-face {
+    font-family: Cinnamon;
+    src: url(../fonts/cinnamon-cake.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster-1.4.otf);
+}
+
 html,body {
   height:100%;
-  background-color: #ffefcc;
+  background-color: #110022;
+  color:#6a4646;
 }
 
 h1 {
-  font-family: Arial,sans-serif
-  font-size:80px;
-  color:#DDCCEE;
+  font-family: Lobster, Arial,sans-serif;
+  font-size:60px;
+  color:#6a4646;
+}
+
+.comment {
+	color:#6a4646;
 }
 
 .lead {
-	color:#DDCCEE;
+	font-family: Cinnamon, Arial,sans-serif;
+	color:#ff4949;
+	font-weight: bold;
+}
+.error p{
+	background-color: #ff4949;
 }
 
 
@@ -19,7 +38,7 @@ h1 {
   margin: 0 auto;
   width: 100%;
   min-height:100%;
-  background-color:#110022;
+  background-color:#ffefcc;
   color:#eee;
   overflow:hidden;
 }
@@ -54,4 +73,38 @@ h1 {
 input[readonly] {
   background-color: white !important;
   cursor: text !important;
+}
+
+
+/* Pic */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+.pic {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
 }

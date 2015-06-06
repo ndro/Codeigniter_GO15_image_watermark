@@ -2,56 +2,50 @@
 	<div id="error">
 		<?php echo validation_errors(); ?>
 	</div>
-	<div class="col-lg-12 text-center v-center">		
-		<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/logo-head.png" alt="Logo GO">
+	<div class="col-lg-12 text-center ">		
+		<a href="<?php echo base_url(); ?>">
+			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/logo-head.png" alt="Logo GO">
+		</a>
 		<h1>Picture Your Self</h1>
 		<p class="lead">
-			Ayo ubah foto anda di semua medsos...!!
+			Ayo ubah semua foto anda semua di media sosial  dan sebarkan semangat Ganesha Open 2015 !!!
 		</p>
-		<div class="col-lg-4">
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-kiri.jpg" alt="Foto kiri" width="400">
-			<br />
-		</div>
-		<div class="col-lg-4">
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-keep.jpg" alt="Foto Keep Calm" width="400">
-			<br />
-		</div>
-		<div class="col-lg-4">
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-kanan.jpg" alt="Foto Kanan" width="400">
-			<br />
-		</div>
-		
+		<span class="error"><?php echo $error;?></span>
+		<span class="comment">Silahkan pilih frame yang diinginkan</span>
 		<br />
+		<div class="col-lg-4">
+			<div class="tilt pic">
+				<a href="<?php echo base_url(); ?>home/upload_page_left" title="Template 1">
+					<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-kiri.jpg" alt="Foto kiri" width="400">
+				</a>
+			</div>
+			<br />&nbsp;
+			<br />
+			<br />
+		</div>
 		
-		<span>*note: gambarnya yang berbentuk kotak jika ingin hasil maksimal (ex: 800x800, 500x500)</span>
-
-		<br />
-
-		<?php echo $error;?>
-		<form class="form-inline" role="form" enctype='multipart/form-data' method="post" action="<?php echo base_url(); ?>home/proses_upload">
-			<div class="col-lg-5">
+		<div class="col-lg-4">
+			<div class="tilt pic">
+				<a href="<?php echo base_url(); ?>home/upload_page_keep" title="Template 2">
+					<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-keep.jpg" alt="Foto Keep Calm" width="400">
+				</a>
 			</div>
-			<div class="form-group col-lg-2">
-				<h4>Choose Your Photo</h4>
-				<div class="input-group">
-					<span class="input-group-btn">
-						<span class="btn btn-primary btn-file">
-							Browse&hellip; <input type="file" name="userfile">
-						</span>
-					</span>
-					<input type="text" class="form-control" readonly>
-				</div>
-				<br />
-				<input class="btn btn-block btn-primary" type="submit" value="Upload" />
-				<br />
-				<br />
+			<br />&nbsp;
+			<br />
+			<br />
+		</div>
+		<div class="col-lg-4">
+			<div class="tilt pic">
+				<a href="<?php echo base_url(); ?>home/upload_page_right" title="Template 3">
+					<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/done-kanan.jpg" alt="Foto Kanan" width="400">
+				</a>
 			</div>
-			<div class="col-lg-5">
-			</div>
-			
-		</form>
-		
+			<br />&nbsp;
+			<br />
+			<br />
 
+		</div>
+	
 	</div>
 
 </div> <!-- /row -->
