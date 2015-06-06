@@ -4,7 +4,7 @@
 			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/brand-encil.png" alt="Logo GO">
 		</a>
 		<h1>Picture Your Self</h1>
-		<span class="comment">*note: gambarnya yang berbentuk kotak jika ingin hasil maksimal (ex: 800x800, 500x500)</span>
+		<span class="comment">*note: Untuk hasil yang maksimal, pilih gambar/foto lebih dari 500x500</span>
 
 		<br />
 
