@@ -32,6 +32,10 @@ h1 {
 	background-color: #ff4949;
 }
 
+.frame {
+	margin: 10px;
+}
+
 
 /* Custom container */
 .container-full {

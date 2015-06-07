@@ -12,4 +12,10 @@ Cek di Internet
 *******************
 
 Berikut adalah pranala untuk ke website-nya:
-http://go15picturself.16mb.com/
+http://go2015picturself.tk/
+
+
+*******************
+Test di server local
+*******************
+Pada file .htaccess, hapus 'RewriteBase /'

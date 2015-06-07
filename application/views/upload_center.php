@@ -34,12 +34,18 @@
 		</div>
 		
 		<div class="row">
-			<span class="comment">Frame yang dipilih (Klik <a href="<?php echo base_url();?>" style="color:#1db047">disini</a> untuk mengganti frame)</span>
-			<br />
-			<br />
-			<img class="img-responsive center-block" src="<?php echo base_url(); ?>assets/images/your-keep.png" alt="Foto Keep" width="400">
-			&nbsp;
-			<br />
+			<div class="col-lg-4">
+			</div>
+			<div class="col-lg-4">
+				<span class="comment">Frame yang dipilih (Klik <a href="<?php echo base_url();?>" style="color:#1db047">disini</a> untuk mengganti frame)</span>
+				<br />
+				<br />
+				<img class="img-responsive center-block pic" src="<?php echo base_url(); ?>assets/images/your-keep.png" alt="Foto Kiri" width="400">
+				&nbsp;
+				<br />
+			</div>
+			<div class="col-lg-4">
+			</div>
 		</div>
 
 	</div>
