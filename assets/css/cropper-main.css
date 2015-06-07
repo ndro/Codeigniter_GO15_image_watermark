@@ -178,6 +178,7 @@ body {
 /* Content */
 
 .img-container,
+.img-container-keep,
 .img-preview {
   background-color: #f7f7f7;
   overflow: hidden;
@@ -185,19 +186,30 @@ body {
   text-align: center;
 }
 
-.img-container {
+.img-container ,
+.img-container-keep{
   min-height: 200px;
   max-height: 466px;
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  .img-container {
+  .img-container{
     min-height: 466px;
   }
 }
 
+@media (min-width: 768px) {
+  .img-container{
+    min-height: 400px;
+  }
+}
+
 .img-container > img {
+  max-width: 100%;
+}
+
+.img-container-keep > img {
   max-width: 100%;
 }
 

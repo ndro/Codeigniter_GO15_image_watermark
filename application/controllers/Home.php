@@ -65,9 +65,9 @@ class Home extends MY_Controller {
 		$mode = $this->input->post('mode');
         $config['upload_path'] = './assets/uploads/';
         $config['allowed_types'] = 'gif|jpg|png';
-        // $config['max_size']    = '100';
-        // $config['max_width']  = '1024';
-        // $config['max_height']  = '768';
+        $config['max_size']    = '2000';
+        // $config['max_width']  = '3000';
+        // $config['max_height']  = '3000';
         $config['file_name']  = 'hasil.png';
         $config['overwrite']  = TRUE;
 
