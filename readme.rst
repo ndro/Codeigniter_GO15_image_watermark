@@ -7,13 +7,6 @@ codeigniter memudahkan kita sebagai developer dalam memanipulasi image.
 Library yang tersedia cukup untuk melakukan banyak hal. Pada web ini, digunakan
 teknik overlay atau penimpaan image pada image yang lain.
 
-*******************
-Cek di Internet
-*******************
-
-Berikut adalah pranala untuk ke website-nya:
-http://go2015picturself.tk/
-
 
 *******************
 Test di server local
